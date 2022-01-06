@@ -165,5 +165,9 @@ let contact1=new Contact("Guru","Prasad","Satram",'Kurnool','Andhra Pradesh','51
 addressBookArray.push(contact1)
 let contact2=new Contact("Murali","Mohan","Old Bus Stand",'Kadapa','Andhra Pradesh','502501',"6302656987",'muralimohan@gmail.com');
 addressBookArray.push(contact2)
+let contact3=new Contact("Pavan","Cena","NR pet",'Bangalore','Karnataka','540800',"7382871075",'pavancena@gmail.com');
+addressBookArray.push(contact3)
+let contact4=new Contact("Lokesh","John","jubilee Hills",'Hyderabad','Telangana','50301',"9876543210",'lokeshjohn@gmail.com');
+addressBookArray.push(contact4)
 console.log("ADDRESS BOOK ARRAY :");
 addressBookArray.forEach(contact => console.log(contact.toString()));
